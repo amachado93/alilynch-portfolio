@@ -18,6 +18,26 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+  list-style: none;
+  text-decoration: none;
+  color: #000000;
 }
 
- 
+/* == nav styling == */
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.menu-items {
+  background-color: #f1f1f1;
+
+}
+.menu-items li{
+  padding: 20px 40px;
+  color: #000;
+}
+.menu-items li :hover {
+    background-color: #555;
+    color: white;
+}
