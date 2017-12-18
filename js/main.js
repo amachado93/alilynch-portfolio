@@ -3,20 +3,15 @@
   const acc = document.getElementsByClassName('accordion');
   const panel = document.getElementsByClassName('panel');
 
-  acc[0].addEventListener("click", activateThing);
+  acc[0].addEventListener('click', activateMenu);
 
-  function activateThing () {
-
-       acc.classList.toggle("active");
-
-       if (panel.style.display === "block") {
-           panel.style.display = "none";
-       } else {
-           panel.style.display = "block";
-       }
-   };
-
-
-
+   function activateMenu () {
+        this.classList.toggle('active');
+        if (panel[0].style.display === 'block') {
+            panel[0].style.display = 'none';
+        } else {
+            panel[0].style.display = 'block';
+        }
+    };
 
 })();
