@@ -17,6 +17,7 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
+  font-family: 'Open Sans', sans-serif;
 	vertical-align: baseline;
   list-style: none;
   text-decoration: none;
@@ -38,6 +39,5 @@ time, mark, audio, video {
   color: #000;
 }
 .menu-items li :hover {
-    background-color: #555;
-    color: white;
+    color: #ed4a42;
 }
