@@ -37,8 +37,6 @@ time, mark, audio, video {
   transition: 0.4s;
 }
 .panel {
-  padding: 0 18px;
-  background-color: white;
   display: none;
 }
 .active, .accordion:hover {
@@ -51,6 +49,7 @@ time, mark, audio, video {
 }
 .menu-items {
   background-color: #f1f1f1;
+  width: 100%;
 
 }
 .menu-items li{
@@ -59,4 +58,17 @@ time, mark, audio, video {
 }
 .menu-items li :hover {
   color: #ed4a42;
+}
+.accordion:after {
+  content: '\2630'; /* Unicode character for hamburger  */
+  font-size: 3em;
+  color: #000;
+  position: absolute;
+  padding-right: .85em;
+  top: 0;
+  right: 0;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for minus sign */
 }
