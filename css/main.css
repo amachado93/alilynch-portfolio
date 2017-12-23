@@ -60,21 +60,21 @@ time, mark, audio, video {
 }
 .accordion:after {
   content: '\2630'; /* Unicode character for hamburger  */
-  font-size: 3em;
+  font-size: 1em;
   color: #000;
   position: absolute;
   padding-right: .85em;
-  top: 0;
+  top: .45em;
   right: 0;
 }
 .active:after {
   content: "\2796"; /* Unicode character for minus sign */
 }
 
-/* == Project styling == */
+/* == Project area styling == */
 section {
   display: grid;
-  grid-auto-columns: max-content;
+  grid-auto-columns: 100%;
 }
 
 h2 {
@@ -89,7 +89,23 @@ h2 {
   align-items: center;
 }
 
+.project-list li{
+  padding-left: 4em;
+}
+
 .project-list img{
   height: 75%;
   width: 75%;
+}
+
+.img1 {
+  background-color: #fc6464;
+}
+
+.img2 {
+  background-color: #b5e572;
+}
+
+.img3 {
+  background-color: #fbff42;
 }
